@@ -1,31 +1,40 @@
 import React from "react";
 import "./JobListing.css";
 import Button from "./Button";
+import {BiStar} from 'react-icons/bi';
+import {BiBriefcase} from 'react-icons/bi';
+import { FaRupeeSign } from "react-icons/fa";
+import {RiMapPinLine} from 'react-icons/ri';
 
 const JobListing = () => {
   return (
     <div className="jobListing">
       <div className="header">
         <h2>Senior Finance Executive Revenue To Record CA Freshers</h2>
-      <img src="data:image/jpeg;base64,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" height="40px" width="40px"></img>
+        <div className="unc" style={{right:"12px"}}>
+      <img src="data:image/jpeg;base64,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" height="40px" width="50px"></img>
         <p className="un" style={{color:"blue"}}>Send me jobs like this</p>
+        </div>
       </div>
       <div className="unacademy">
        
-        <p className="company">Unacademy ⭐ 3.0 | 1945 Reviews</p>
+        <p className="company">Unacademy <BiStar size={12} color={"yellow"} bgcolor={"yellow"}/> 3.0 | 1945 Reviews</p>
         </div>
       <div className="details">
-        <span>📅 0 - 2 years</span>
-        <span>💰 Not Disclosed</span>
-        <span>📍 Bengaluru</span>
+        <span><BiBriefcase /> 0 - 2 years</span>
+        <span><FaRupeeSign /> Not Disclosed</span>
+        <span><RiMapPinLine /> Bengaluru</span>
       </div>
+      <div className="main">
       <div className="meta">
-        <p>Posted: 17 days ago | Openings: 2 | Applicants: 884</p>
-      </div>
-      <div className="actions">
+        <p>Posted: <span style={{fontWeight:"bolder" ,color:"black"}}>17 days ago</span> | Openings: <span style={{fontWeight:"bolder" ,color:"black"}}> 2</span> | Applicants: <span style={{fontWeight:"bolder" ,color:"black"}}>884</span></p>
+        <div className="actions">
         <Button text="Register to apply" variant="secondary" />
         <Button text="Login to apply" variant="primary" />
       </div>
+      </div>
+      </div>
+      
     </div>
   );
 };

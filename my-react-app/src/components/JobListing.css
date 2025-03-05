@@ -4,6 +4,53 @@
     border-radius: 8px;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   }
+
+  .header{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    
+  
+  }
+
+  .unacademy{
+
+  margin-top: -21px;
+  font-size: 15px;
+  }
+
+  .main{
+    display:flex;
+    flex-direction: column;
+  }
+  .meta{
+    flex-direction: column;
+  }
+
+  .unc{
+    display:flex;
+    flex-direction: column;
+    font-size: medium;
+    font-weight: bolder;
+ 
+ 
+  }
+
+ 
+.unc img {
+  position: absolute;
+  top: 50%;
+  right: 550px;
+  transform: translateY(-790%);
+  
+  
+
+}
+.un{
+  transform: translateY(200%);
+}
+
+ 
   
   .header h2 {
     font-size: 18px;

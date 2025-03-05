@@ -1,5 +1,7 @@
 import React from "react";
 import "./RelatedJobs.css";
+import { BiBriefcase } from "react-icons/bi";
+import { RiMapPinLine } from "react-icons/ri";
 
 const jobs = [
   { title: "Korean Educator", experience: "1-5 Yrs", location: "Bengaluru (Domlur)", posted: "19 days ago" },
@@ -15,7 +17,7 @@ const RelatedJobs = () => {
         {jobs.map((job, index) => (
           <li key={index} className="jobItem">
             <h4>{job.title}</h4>
-            <p>📅 {job.experience} | 📍 {job.location}</p>
+            <p><BiBriefcase />{job.experience} | <RiMapPinLine /> {job.location}</p>
             <span>Posted {job.posted}</span>
           </li>
         ))}
